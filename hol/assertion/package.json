@@ -2,5 +2,11 @@
   "name": "@westpoint-io/hol-assertion",
   "version": "0.0.0",
   "description": "A simple assertion HOL for your lambdas",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14"
+  }
 }
