@@ -10,9 +10,6 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "paths": {
-      "@events-types": ["../shared/events-types"]
-    }
+    "forceConsistentCasingInFileNames": true
   }
 }

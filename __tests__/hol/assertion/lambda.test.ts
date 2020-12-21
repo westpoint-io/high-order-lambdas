@@ -1,4 +1,4 @@
-import { withAssertion } from '../../../hol/assertion';
+import { withAssertion } from '../../../hol/assertion/typings';
 
 describe('Assertion hol', () => {
   describe('EnvHas', () => {

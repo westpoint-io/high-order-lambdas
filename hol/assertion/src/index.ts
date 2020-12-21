@@ -1,15 +1,10 @@
-import LambdaEvent from '../../shared/events-types';
-import { AssertionContext } from './types';
+import { AssertionContext } from '../typings';
 import { assert, expect } from 'chai';
 
 export const withAssertion = (
-  handler: (
-    event: LambdaEvent,
-    context: AssertionContext,
-    ...rest: any[]
-  ) => any
+  handler: (event: any, context: AssertionContext, ...rest: any[]) => any
 ) => {
-  return (event: LambdaEvent, context: AssertionContext, ...rest: any[]) => {
+  return (event: any, context: AssertionContext, ...rest: any[]) => {
     try {
       context.assert = assert;
       context.expect = expect;
