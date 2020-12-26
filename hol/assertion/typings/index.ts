@@ -1,4 +1,4 @@
-import { LambdaContext } from './lambda-context.ts';
+import { LambdaContext } from "./lambda-context.ts";
 
 export interface IAssert {
   envHas(envs: string[], message?: string): void;

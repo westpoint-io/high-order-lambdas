@@ -3,7 +3,7 @@ export class Assert {
     if (!envs.every((env) => Object.keys(Deno.env.toObject()).includes(env))) {
       throw {
         code: 500,
-        message: message || 'Required environment variable not provided',
+        message: message || "Required environment variable not provided",
       };
     }
   }

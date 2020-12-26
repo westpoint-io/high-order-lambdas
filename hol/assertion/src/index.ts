@@ -1,8 +1,8 @@
-import { AssertionContext } from '../typings/index.ts';
-import { Assert } from './assert.ts';
+import { AssertionContext } from "../typings/index.ts";
+import { Assert } from "./assert.ts";
 
 export const withAssertion = (
-  handler: (event: any, context: AssertionContext, ...rest: any[]) => any
+  handler: (event: any, context: AssertionContext, ...rest: any[]) => any,
 ) => {
   return (event: any, context: AssertionContext, ...rest: any[]) => {
     try {
