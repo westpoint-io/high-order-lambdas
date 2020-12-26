@@ -1,4 +1,2 @@
-export * from "./src/index.ts";
-export * from "./src/assert.ts";
-export * from "./typings/index.ts";
-export * from "./typings/lambda-context.ts";
+export type { AssertionContext, IAssert } from './typings/index.ts';
+export type { LambdaContext } from './typings/lambda-context.ts';
